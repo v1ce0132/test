@@ -1,0 +1,62 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  .add-tasks-box 
+  {
+    padding-bottom: 20px;
+  }
+  h3
+  {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  ol, ul {
+    margin: 0px;
+    padding-left: 0px;
+    list-style: none;
+    width: 300px;
+    max-width: 100%;
+  }
+  li
+  {
+    padding: 10px;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+  }
+  li.ready
+{
+  background: rgba(0,255,0,.2);
+}
+  textarea
+  {
+    width: 100%;
+    max-width: 300px;
+    height: 180px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+  }
+  input#title-add {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px 14px;
+    margin-bottom: 10px;
+}
+.add-tasks-box {
+    padding-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+}
+.tasks-box {
+  display: inline-block;
+  vertical-align: top;
+}
+.task-text
+{
+  display: block;
+}
+span.task-title {
+  font-weight: 700;
+}

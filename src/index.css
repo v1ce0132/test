@@ -43,7 +43,7 @@ body {
     padding: 5px 14px;
     margin-bottom: 10px;
 }
-.add-tasks-box {
+  .add-tasks-box {
     padding-bottom: 20px;
     display: inline-block;
     vertical-align: top;
@@ -53,10 +53,28 @@ body {
   display: inline-block;
   vertical-align: top;
 }
+.tasks-box span.edit, .tasks-box span.del, .tasks-box span.ready, .tasks-box span.save {
+  padding-right: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 12px;
+}
 .task-text
 {
   display: block;
 }
 span.task-title {
   font-weight: 700;
+}
+.task-text textarea {
+  max-width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  height: 70px;
+}
+.task-title input[type="text"] {
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
 }
